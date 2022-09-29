@@ -127,10 +127,13 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                   Container(
-                    child: RaisedButton(
-                      onPressed: () {},
-                      Color: Colors.blue,
-                      child: Text("Konversi"),
+                  width: double.infinity,
+                  height: 50,
+                  child: RaisedButton(
+                    onPressed: _konversiSuhu,
+                    color: Colors.lightBlue,
+                    textColor: Colors.white,
+                    child: Text("Konversi Suhu"),
                     ),
                   ),
                   
